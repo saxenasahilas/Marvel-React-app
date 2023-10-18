@@ -1,3 +1,5 @@
+@import '_variables';
+
 .integration {
   img {
     width: 50%;
@@ -28,7 +30,7 @@
 }
 
 
-@media (max-width:849px){
+@media (max-width: $mobile-tablet){
   .reverse,.integrationCard{
     flex-direction:column-reverse !important;
   }

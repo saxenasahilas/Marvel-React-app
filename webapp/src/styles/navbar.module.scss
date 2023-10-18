@@ -16,11 +16,11 @@
       height: auto;
       margin-right: 6px;
     }
-    svg{
-      display:none;
+    
   }
-  }
-   
+  svg{
+    display:none;
+}
   .navLinks {
     select {
       background: transparent;
@@ -52,10 +52,14 @@
   }
 }
 
-@media (max-width: 849px){
-  .svg{
-    display:block;
+@media (max-width: $mobile-tablet){
+  
+  .navbar{
+    svg{
+      display:block;
+    }
   }
+
   .collapse{
     background: $dark-blue-08;
     position:fixed;
@@ -93,6 +97,3 @@
     width:100%;
   }
 }
-
-
-

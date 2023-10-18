@@ -15,7 +15,7 @@
   height: auto;
   margin-right: 6px;
 }
-.navbar .logo svg {
+.navbar svg {
   display: none;
 }
 .navbar .navLinks select {
@@ -42,8 +42,8 @@
   margin-right: 0px;
 }
 
-@media (max-width: 849px) {
-  .svg {
+@media (max-width: 930px) {
+  .navbar svg {
     display: block;
   }
   .collapse {

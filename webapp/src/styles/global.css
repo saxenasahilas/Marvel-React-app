@@ -12,19 +12,28 @@ body {
 
 .container {
   margin: 0 auto;
-  width: 996px;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 
-@media (max-width: 1060px) {
+@media (min-width: 1600px) {
   .container {
-    width: 800px;
+    width: 1420px !important;
   }
 }
-@media (max-width: 849px) {
+@media (max-width: 1599px) {
+  .container {
+    width: 1200px;
+  }
+}
+@media (max-width: 1364px) {
+  .container {
+    width: 925px;
+  }
+}
+@media (max-width: 930px) {
   .container {
     width: 100%;
-    padding-left: 25px;
-    padding-right: 25px;
   }
 }
 h1 {

@@ -35,15 +35,12 @@
   }
 }
 
-@media (max-width:849px){
+@media (max-width:$mobile-tablet){
   .featuresHeader{
     width:100% !important;
   }
 
   .featuresCards{
-    .featuresCard{
-      margin-right:0 !important;
-      margin-bottom: 20px;
-    }
+    gap: 20px;
   }
 }

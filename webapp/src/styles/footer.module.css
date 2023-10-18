@@ -2,14 +2,12 @@
   min-width: 100%;
   display: flex;
   margin-top: 8rem;
-  padding-top: 4rem;
-  padding-bottom: 4rem;
-  justify-content: center;
+  padding: 4rem 0;
+  justify-content: space-between;
   align-items: flex-start;
   flex-wrap: wrap;
-  gap: 6%;
 }
-.footer .logo {
+.footer .footerLogo .logo {
   width: 75px;
   height: auto;
 }
@@ -31,10 +29,12 @@
   color: #FEFEFE;
 }
 
-@media (max-width: 865px) {
+@media (max-width: 930px) {
   .footer {
-    padding-left: 25px;
-    padding-right: 25px;
     gap: 73px;
+    justify-content: flex-start;
+  }
+  .footer .footerLogo {
+    flex-basis: 100%;
   }
 }/*# sourceMappingURL=footer.module.css.map */

@@ -4,22 +4,22 @@
   min-width: 100%;
   display: flex;
   margin-top: 8rem;
-  padding-top: 4rem;
-  padding-bottom: 4rem;
-  justify-content: center;
+  padding:4rem 0;
+  justify-content: space-between;
   align-items: flex-start;
   flex-wrap:wrap;
-  gap: 6%;
 
-  .logo {
-    width: 75px;
-    height: auto;
+  .footerLogo{
+    .logo {
+      width: 75px;
+      height: auto;
+    }
   }
+  
 
   .footerColumn {
     display: flex;
     flex-direction: column;
-
     h4 {
       margin-bottom: 18px;
     }
@@ -29,7 +29,6 @@
       font-size: .833rem;
       text-decoration: none;
       color: $grey-47;
-
       &:hover {
         text-decoration: underline;
         color: $white-100;
@@ -38,10 +37,12 @@
   }
 }
 
-@media (max-width: 865px){
+@media (max-width: $mobile-tablet){
   .footer{
-    padding-left:25px;
-    padding-right: 25px;
     gap:73px;
+    justify-content: flex-start;
+    .footerLogo{
+      flex-basis: 100%;
+    }
   }
 }

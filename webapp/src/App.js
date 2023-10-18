@@ -13,8 +13,8 @@ function App() {
         <Hero />
         <Features />
         <Integrations />
+        <Footer />
       </div>
-      <Footer />
     </>
   );
 }

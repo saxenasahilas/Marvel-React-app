@@ -1,16 +1,16 @@
 .hero {
   margin-top: 6rem;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   flex-wrap: wrap;
 }
 .hero img {
-  width: 100%;
+  width: 50%;
   height: auto;
-  flex: 0 0 50%;
+  flex: 1;
 }
 .hero .heroContent {
-  flex: 0 1 400px;
+  flex: 0 1 425px;
 }
 .hero .heroContent h2 {
   margin-bottom: 20px;
@@ -22,14 +22,14 @@
   margin-right: 15px;
 }
 
-@media (max-width: 849px) {
+@media (max-width: 930px) {
   .hero {
     text-align: center;
     justify-content: center;
   }
   .hero img {
     margin-top: 20px;
-    flex-basis: 100%;
+    width: 100%;
   }
   .hero .heroContent .buttonGroups button {
     margin-bottom: 15px;

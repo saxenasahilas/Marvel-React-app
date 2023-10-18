@@ -25,7 +25,7 @@
   flex-direction: row-reverse;
 }
 
-@media (max-width: 849px) {
+@media (max-width: 930px) {
   .reverse, .integrationCard {
     flex-direction: column-reverse !important;
   }
