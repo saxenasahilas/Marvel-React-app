@@ -1,5 +1,4 @@
-import {useState} from 'react';
-import styles from '../styles/navbar.module.css';
+import styles from '../styles/navbar.module.scss';
 import Button from './_includes/Button';
 import {CloseIcon, MenuIcon} from './_includes/Icons';
 

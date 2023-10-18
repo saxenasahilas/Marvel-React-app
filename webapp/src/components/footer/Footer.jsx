@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from '../../styles/footer.module.css';
+import styles from '../../styles/footer.module.scss';
 import footerdata from './_Footer_menu_data';
 import Footermenu from './Footermenu';
 

@@ -1,9 +1,9 @@
 import React from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
-import Features from './components/features/Features';
+import Features from './components/body/features/Features';
 import Footer from './components/footer/Footer';
-import Integrations from './components/body/card-container';
+import Integrations from './components/body/horizontal-cards/card-container';
 
 function App() {
   return (

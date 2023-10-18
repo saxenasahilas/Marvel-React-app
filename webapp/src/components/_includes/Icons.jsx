@@ -1,5 +1,3 @@
-import { Children } from "react";
-
 export const CloseIcon = (props) =>  <svg viewBox="0 0 24 24" fill="none" version="1.1" onClick={props.handleClick} xmlns="http://www.w3.org/2000/svg">
 		<line className="vector" x1="8.3" y1="8.3" x2="15.7" y2="15.8"/>
 		<line className="vector" x1="8.3" y1="15.7" x2="15.7" y2="8.2"/> 
