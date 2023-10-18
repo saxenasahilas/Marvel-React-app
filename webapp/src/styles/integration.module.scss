@@ -1,0 +1,46 @@
+.integration {
+  img {
+    width: 50%;
+    height: auto;
+  }
+  .integrationCard {
+    margin-top: 5rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    .integrationheading{
+      flex: 0 0 400px;
+    }
+    h2 {
+      margin-bottom: 20px;
+    }
+    p {
+      margin-bottom: 30px;
+    }
+    .buttonGroups button {
+      margin-right: 15px;
+    }
+  }
+}
+
+.reverse{
+  flex-direction: row-reverse;
+}
+
+
+@media (max-width:849px){
+  .reverse,.integrationCard{
+    flex-direction:column-reverse !important;
+  }
+  .integration{
+    text-align: center;
+    img{
+      width:100%;
+    }
+    .integrationCard{
+      .integrationheading{
+        flex-basis:250px;
+      }
+    }
+  }
+}

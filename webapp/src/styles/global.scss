@@ -1,0 +1,75 @@
+@import '_variables';
+@import '_mixins';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: $dark-blue-08;
+  color: $grey-83;
+  font-family: Graphik, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  width: 996px;
+}
+
+@media (max-width: 1060px) {
+  .container{
+    width: 800px;
+  }
+}
+
+@media (max-width: 849px){
+  .container{
+    width: 100%;
+    padding-left:25px;
+    padding-right:25px;
+  }
+}
+
+h1 {
+  font-size: 2.488rem;
+}
+
+h2 {
+  font-size: 1.728rem;
+}
+
+h3 {
+  font-size: 1.2rem;
+}
+
+h4, p {
+  font-size: 1rem;
+  letter-spacing: .3px;
+}
+
+.primary-btn {
+  @include button('blue');
+}
+
+.secondary-btn {
+  @include button('white');
+}
+
+.borderless-btn {
+  @include button('colorless');
+}
+
+svg{
+  width: 4rem;
+  height: auto;
+  fill: currentColor;
+  stroke: currentColor;
+  cursor: pointer;
+  .vector{
+    stroke-linecap:round;
+    stroke-miterlimit:10;
+  }
+}
+

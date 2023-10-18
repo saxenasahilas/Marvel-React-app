@@ -1,0 +1,28 @@
+@import '_variables';
+
+@mixin button($color){
+
+    padding: 15px 25px;
+    border-radius: 30px;
+    font-size: 1rem;
+    font-weight: 500;
+    color: $dark-blue-08;
+    cursor: pointer;
+    border: none;
+    &:hover {
+        text-decoration: underline;
+    }
+    @if $color == 'blue' {
+        background-color: $blue-100;
+        color: $white-100;
+    }
+    @else if $color == 'white' {
+        background-color: $white-100;
+    }
+    @else if $color == 'colorless'  {
+        background-color: transparent;
+        border: 1px solid $white-100;
+        color: $white-100;
+    }
+    
+}

@@ -1,0 +1,49 @@
+@import '_variables';
+
+.features {
+  margin-top: 8rem;
+
+  h3, p {
+    margin-top: 20px;
+  }
+
+  p {
+    color: $grey-47;
+  }
+
+  .featuresHeader {
+    text-align: center;
+    width: 450px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+  }
+
+  .featuresCards {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+
+    .featuresCard {
+      margin-right: 20px;
+      flex: 1;
+      text-align: center;
+    }
+
+    .featuresCard:last-child {
+      margin-right: 0px;
+    }
+  }
+}
+
+@media (max-width:849px){
+  .featuresHeader{
+    width:100% !important;
+  }
+
+  .featuresCards{
+    .featuresCard{
+      margin-right:0 !important;
+      margin-bottom: 20px;
+    }
+  }
+}
